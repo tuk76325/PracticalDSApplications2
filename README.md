@@ -39,7 +39,7 @@ Our goal is to use the contributors' ZIP codes and candidate committees to calcu
 We are using data pulled from the official FEC website. The individual contributions files are huge, so some of the initial (and time consuming) processing has already been taken care of.
 
 # CAPTURING DATA CHANGES FOR SLOWLY CHANGING DIMENSIONS
-This problem builds on your knowledge of working with tabular data.
+This problem builds on knowledge of working with tabular data.
 
 Scenario:
   You have just been hired by the hot new startup Spot-i-flix-ify (this is a fictional company which will offer video and audio streaming services) as a Data Scientist. This is a small startup so you have to "wear many different hats," so to speak. Your first task on the job is to set up their data warehousing so that they can capture a historical record of their operations for analysis later. The operational database (which someone else has already set up) only contains the current state of the operation to maintain maximum efficiency while performing tasks like adding new customers, changing services, applying promotions, etc. It will not contain any history and is not intended have complex queries run against it. While this is a fictional company and simulation data, there is a real-world use case for the processes developed in this notebook.
